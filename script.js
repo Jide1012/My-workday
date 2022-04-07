@@ -1,7 +1,7 @@
-let todayDate = moment().format('MMMM D, YYYY');
+let todayDate = moment().format('MMMM D, YYYY');//current Date
 $("#currentDay").html(todayDate);
 
-//Loads the Data for the local Storage
+
 
 $("#8 ").val(localStorage.getItem("8"));
 $("#9 ").val(localStorage.getItem("9"));
@@ -17,7 +17,7 @@ $("#17 ").val(localStorage.getItem("17"));
 $(".saveBtn").on("click", function() {
     var saveText = $(this).siblings(".description").val();
     var identityID = $(this).siblings(".description").attr("id");
-
+//Loads the Data for the local Storage
     localStorage.setItem(identityID, saveText);
 });
 
