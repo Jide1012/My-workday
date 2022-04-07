@@ -14,6 +14,6 @@ Step 5: The Final thing I did is create is create my timetracker function which 
 
 
 
-
+![WorkDay Schedule](https://github.com/Jide1012/My-workday/blob/main/Work-Day%20picture.PNG)
 
 Credits: SMU.com
